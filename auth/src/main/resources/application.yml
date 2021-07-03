@@ -1,0 +1,12 @@
+
+spring:
+  application:
+    name: chatsAppauth
+
+
+  data:
+    mongodb:
+      database: chatsAppauth
+
+server:
+  port: 8081

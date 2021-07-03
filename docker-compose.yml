@@ -1,0 +1,11 @@
+version: '3'
+services:
+  authdb:
+    image: mongo:latest
+    container_name: "auth-db"
+    environment:
+      - MONGO_LOG_DIR=/dev/null
+    ports:
+      - "27017:27017"
+    volumes:
+      - /home/gokul/chatsApp:/data/db
